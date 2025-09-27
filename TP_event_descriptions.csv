@@ -1,0 +1,615 @@
+﻿groups;event;event_description
+$ae;$ae_first_open;Triggered the first time a user opens the app (often for new install tracking).
+$ae;$ae_iap;Triggered when an in-app purchase process occurs.
+$ae;$ae_session;Indicates the start or continuation of a user session.
+$ae;$ae_updated;Likely fired when the app or user data is updated.
+$create_alias;$create_alias;Analytics event merging/aliasing an anonymous user profile with an identified one.
+$identify;$identify;Analytics event identifying a user with an ID or traits.
+account;AccountDelete;User starts or confirms account deletion.
+account;AccountDelete.Error;An error occurred while deleting the account.
+account;AccountSettingsScreen;User opens the Account Settings screen.
+account;AccountSettingsScreenAccountDeleted;User successfully deleted account from Account Settings.
+account;AccountSettingsScreenAccountDeleteError;Error deleting account from Account Settings screen.
+account;AccountSettingsScreenSignOutTap;User taps to sign out from Account Settings.
+add;AddEmailScreenSignInWithGoogleError;Error adding email with Google on the Add Email screen.
+add;AddIntroOutroScreen;Screen for adding an intro/outro to a video.
+add;AddIntroOutroScreen.added;User successfully added an intro/outro.
+add;AddIntroOutroScreen.introTimeLimit;User hit a time limit for the intro/outro.
+add;AddIntroOutroScreen.removed;User removed the intro/outro.
+add;AddPasswordScreen;Screen for creating or editing a password. (used when oreviously used google or apple signin)
+add;AddPasswordScreen.Auth.Error;Authentication error on Add Password screen.
+add;AddPasswordScreen.SaveTap;User taps Save on the Add Password screen.
+add;AddPasswordScreen.SaveTap.Authenticate;User is prompted to authenticate after tapping Save.
+add;AddPasswordScreen.SaveTap.Close;User closes the screen after Save tap.
+add;AddPasswordScreen.SaveTap.Error;Error after tapping Save on Add Password screen.
+add;AddPasswordScreenSaveTap;(Duplicate) Another event for Save tap on Add Password screen.
+add;AddScriptViewController;Screen to add a new script.
+add;AddScriptViewController.dismiss();User dismisses Add Script view.
+AI;AIGenerateTap;User taps a button to generate content (e.g., scripts) with AI.
+AI;AIGeneratorError;An error occurred during AI content generation.
+AI;AIScriptGenerateTap;User taps to generate a full script with AI.
+allFolders.Error;allFolders.Error;Error fetching or handling all folders data.
+app;app_close;App is closed or goes to background.
+app;app_install;App is installed (first run after install).
+app;app_launch;App launched from cold start.
+app;app_open;App is opened or returned to foreground.
+AppStorePromoPurchase;AppStorePromoPurchase;User made a purchase via a special App Store promo.
+assigned;AssignedToCheckTrialEligibility;User is placed in a flow to check trial eligibility.
+assigned;AssignedToLongOnboarding;User assigned to a longer/more detailed onboarding flow.
+assigned;AssignedToNewUpgrade;User assigned to test or see a new upgrade paywall.
+assigned;AssignedToNewWinback;User assigned to a winback campaign flow.
+assigned;AssignedToPaywallAfterOnboarding;A paywall is shown right after onboarding.
+assigned;AssignedToPaywallNoPaymentNow;Paywall flow not requiring immediate payment.
+assigned;AssignedToPaywallOnAppOpen;Paywall is presented on app open.
+assigned;AssignedToPaywallShimmerTitle;Paywall variant with a shimmering title.
+assigned;AssignedToPaywallTryFreeTitle;Paywall variant emphasizing 'Try Free'.
+assigned;AssignedToShowCustomerSuccess;Assigned to see a customer success screen/flow.
+assigned;AssignedToShowPaywallCountDownBeforeClose;Paywall with a countdown before user can close.
+assigned;AssignedToShowPermissionsOnboarding;User assigned a permissions-focused onboarding.
+assigned;AssignedToShowSecondOffer;User assigned a second special offer flow.
+AudioCleaningError;AudioCleaningError;An error occurred while cleaning/improving audio.
+backgroundColorChanged;backgroundColorChanged;User changed the editor/teleprompter background color.
+billing_issue_event;billing_issue_event;A payment issue occurred that may prevent the subscription from paying or renewing.
+bionic;BionicReadingEnabled;User enabled a 'bionic reading' format.
+bionic;BionicReadingRemovedViewController;User removed the Bionic Reading view controller.
+bionic;BionicReadingRemovedViewController.dismiss();User dismisses the Bionic Reading view.
+bluetooth;BluetoothCentralScreen;Screen showing central Bluetooth settings or scanning.
+bluetooth;BluetoothRemoteScreen;Screen for Bluetooth remote control setup.
+bluetooth;BluetoothRemoteScreenRemotelyControlledTap;User taps to control teleprompter remotely.
+bluetooth;BluetoothRemoteScreenUpgradeWarning;Upgrade/paywall warning on Bluetooth Remote screen.
+bluetooth;BluetoothRemoteScreenUpgradeWarningUpgradeTap;User taps Upgrade after seeing warning.
+bluetooth;BluetoothRemoteScreenUseAsRemoteTap;User taps to use this device as a remote.
+blur;BlurBackgroundViewController;Screen to blur the video background.
+blur;BlurBackgroundViewController.dismiss();User dismisses the blur background screen.
+branch;Branch.Log;Generic log event from Branch (deep linking).
+branch;Branch.Log.Error;Error log from Branch.
+branch;BranchScene.initSession;Branch session initialization event.
+cancel;CancelFeedbackScreen;User cancels the feedback screen.
+cancellation_event;cancellation_event;The subscriber has canceled their active subscription (after the trial period) or the suscriber has refunded.
+cancel;CancellationOneTimeOfferScreen;Screen shown to user canceling a subscription with a one-time offer.
+cancel;CancellationOneTimeOfferScreenCloseConfirmation;Confirmation prompt before closing that screen.
+cancel;CancellationOneTimeOfferScreenCloseTap;User taps to close the cancellation offer screen.
+cancel;CancelWrittenFeedbackScreenFeedbackDismissother;User dismisses a written feedback form (other reason).
+cancel;CancelWrittenFeedbackScreenFeedbackSentother;User submits feedback labeled 'other' then cancels.
+cancel;CancelWrittenFeedbackScreenOther;User cancels the written feedback flow with 'other' reason.
+caption;CaptionEditorScreen;Screen for editing video captions/subtitles.
+caption;CaptionEditorScreen.deleteSubtitleTap;User taps to delete a subtitle line.
+caption;CaptionEditorScreen.showTemplateSelectorTap;User opens a template selector for captions.
+caption;CaptionEditorScreen.wordSelectedForEdit;A word is selected for detailed editing.
+caption;CaptionEditorScreenAddToVideoTap;User finishes and adds captions to video.
+caption;CaptionEditorScreenCancelTap;User cancels the caption edit flow.
+caption;CaptionEditorScreenDeleteConfirmation;Confirmation prompt to delete a subtitle line.
+caption;CaptionEditorScreenDeleteConfirmationDelete;User confirms subtitle deletion.
+caption;CaptionEditorScreenExportSRT;User exports subtitles to an SRT file.
+caption;CaptionEditorScreenPlayPauseVideo;User toggles play/pause of the video in caption editor.
+caption;CaptionEditorScreenSubtitleStyleEdited;User changed styling (font, color) of subtitles.
+caption;CaptionsViewController;Another captions or subtitles management screen. This lsit the available caption styles
+capture;CaptureService.cameraFlipped;User flips the camera from front to back or vice versa.
+capture;CaptureService.setCustomExposure;User sets a custom camera exposure.
+checkSubscriptionStatus.Error;checkSubscriptionStatus.Error;Error checking subscription status.
+chooseFacebook;ChooseAccountViewController<ChooseFacebookAccountViewModel>;Screen to select a Facebook account.
+chooseFacebook;ChooseAccountViewController<ChooseFacebookAccountViewModel>.dismiss();User dismisses the FB account chooser.
+chooseFacebook;ChooseAccountViewController<ChooseFacebookAccountViewModel>.navigateBack();User navigates back from FB account chooser.
+chooseFacebook;ChooseAccountViewController<ChooseFacebookAccountViewModel>.selectAccount(_:);User selects a specific FB account.
+chooseYoutube;ChooseAccountViewController<ChooseYouTubeAccountViewModel>;Screen to select a YouTube account.
+chooseYoutube;ChooseAccountViewController<ChooseYouTubeAccountViewModel>.dismiss();User dismisses the YT account chooser.
+chooseYoutube;ChooseAccountViewController<ChooseYouTubeAccountViewModel>.navigateBack();User navigates back from YT account chooser.
+chooseYoutube;ChooseAccountViewController<ChooseYouTubeAccountViewModel>.selectAccount(_:);User picks a specific YouTube account.
+chooseYoutube;ChooseFacebookAccountViewModel.login();User logs into Facebook in the chooser flow.
+chooseYoutube;ChooseYouTubeAccountViewModel.login();User logs into YouTube in the chooser flow.
+CleanAudioTap;CleanAudioTap;User taps to clean/improve audio.
+config_attributes;config_attributes;Logs or sets certain config/attribute data.
+ConnectAccount;ConnectAccountFBAppTrackingViewController;Screen to connect FB account & show app tracking details.
+ConnectAccount;ConnectAccountFBAppTrackingViewController.dismiss();Dismisses that connect FB/tracking screen.
+ConnectAccount;ConnectAccountFBAppTrackingViewController.navigateBack();User navigates back from that screen.
+ConnectAccount;ConnectAccountFBAppTrackingViewController.showAppTrackingInfo();User taps to show more Facebook tracking info.
+ConnectAccount;ConnectAccountViewController<ConnectFacebookAccountViewModel>;Screen to connect a Facebook account.
+ConnectAccount;ConnectAccountViewController<ConnectFacebookAccountViewModel>.dismiss();User dismisses the connect FB screen.
+ConnectAccount;ConnectAccountViewController<ConnectFacebookAccountViewModel>.navigateBack();User navigates back from connect FB screen.
+ConnectAccount;ConnectAccountViewController<ConnectYouTubeAccountViewModel>;Screen to connect a YouTube account.
+ConnectAccount;ConnectAccountViewController<ConnectYouTubeAccountViewModel>.dismiss();User dismisses the connect YT screen.
+ConnectAccount;ConnectAccountViewController<ConnectYouTubeAccountViewModel>.navigateBack();User navigates back from connect YT screen.
+ConnectFacebook;ConnectFacebookAccountViewModel.login();User attempts to log in to Facebook from connect flow.
+ConnectYouTube;ConnectYouTubeAccountViewModel.login();User attempts to log in to YouTube from connect flow.
+connect;ConntectAccountPlatformSelectorViewController;Screen to choose a platform (FB, YT, etc.) to connect.
+ConnectAccount;ConntectAccountPlatformSelectorViewController.ConnectAccountPlatform(_:);User selects a platform to connect.
+ConnectAccount;ConntectAccountPlatformSelectorViewController.dismiss();User dismisses the platform selector.
+Copied;CopiedFontSize;User copied only the font size setting from one script to apply it to another
+Copied;CopiedSpeed;User copied only the speed setting from one script to apply it to another
+Copied;CopiedSpeedAndFontsize;User copied both speed & font size settings from one script to apply it to another
+Core;CoreDataContainer.Crash.Error;Crash or error while handling Core Data container.
+Core;CoreDataContainer.saveContext.Error;Error saving changes to Core Data.
+Could;Could not clear temp folder;Failed to clear temporary folder.
+Could;Could not clear temp folder.Error;Detailed error info about clearing temp folder.
+create;Created a folder;User created a new folder in the app.
+create;CreateNewScriptTap;User taps to create a new script.
+create;createPromoCode.Error;Error creating a promo code on backend.
+create;createRecording;User started creating a new recording.
+deeplinkRemoteConnectUsed;deeplinkRemoteConnectUsed;A deep link was used to open remote connect.
+deleteRecording;deleteRecording;User deletes a particular recording.
+device_attributes;device_attributes;Captures device info (model, OS) for analytics.
+did_receive_asa_attribution;did_receive_asa_attribution;App received Apple Search Ads attribution data.
+didRegister;didRegisterForRemoteNotificationsWithDeviceToken;App got a valid push notification token.
+didRegister;didRegisterForRemoteNotificationsWithDeviceToken.Error;Error obtaining the push token.
+documentPicker.Error;documentPicker.Error;Error importing from document picker.
+Editorscreen;Editorscreen;User is on the main text editor screen.
+errorCatched;errorCatched;A general error was caught/logged.
+expiration_event;expiration_event;The active subscription has reached its renewal date but did not renew and is no longer active.
+FBApp;FBAppTrackingInfoViewController;Screen showing info about FB app tracking.
+FBApp;FBAppTrackingInfoViewController.dismiss();User dismisses the FB tracking info screen.
+FBApp;FBAppTrackingInfoViewController.navigateBack();User navigates back from FB tracking info screen.
+FBApp;FBAppTrackingViewController;Another Facebook app tracking configuration screen.
+FBApp;FBAppTrackingViewController.dismiss();User dismisses that FB tracking screen.
+FBApp;FBAppTrackingViewController.navigateBack();User navigates back from FB tracking view.
+FBApp;FBAppTrackingViewController.showAppTrackingInfo();User requests more FB tracking details.
+FBApp;FBAppTrackingViewController.streamWithURL();User attempts to stream with a provided FB URL.
+fetchRedeemedPromoCodea.Error;fetchRedeemedPromoCodea.Error;Error fetching redeemed promo codes.
+first_seen;first_seen;Marks when the backend first sees this user/device.
+Folder;FolderCreated;Another event indicating a folder was created.
+Folder;FolderRemoved;A folder was removed.
+Folder;FolderSelected;User selected or opened a folder.
+Font;FontChanged;User changed the font style.
+Font;fontColorChanged;User changed the font color.
+Font;FontSelectionViewController;Screen or view for selecting fonts.
+Font;FontSizeTap;User taps to adjust font size.
+FootPedalRemoteScreen;FootPedalRemoteScreen;Screen in settings for controlling teleprompter with a foot pedal.
+FreespaceWarning;FreespaceWarning;Warning: device is running low on free storage when opening the record screen
+freeTrial_start;freeTrial_start;User begins a free trial.
+GameControllerManager.Connected;GameControllerManager.Connected;A game controller was connected for teleprompter control.
+getPreviousTranscriptionJob.Error;getPreviousTranscriptionJob.Error;Error retrieving a previous transcription job.
+Global;GlobalCommandResponder.changeMarginSettings(_:);User changes margin settings with a global command.
+Global;GlobalCommandResponder.useDeviceAsRemote(_:);User sets current device as a teleprompter remote.
+handle;handleFileFailed;A file import or read operation failed.
+handle;handleFileFailed.Error;Details about the file handling failure.
+hideReviewTap;hideReviewTap;User dismisses or hides a review prompt.
+Homescreen;Homescreen;User is on the app's home screen.
+Homescreen;HomeScreenRemoteStopped;Remote-control on the home screen was stopped.
+Homescreen;HomeScreenRemoteWarning;A warning about remote usage on the home screen when opening the app again and a remote was connected alrady
+Homescreen;HomeScreenRemotewarningStopped;The home screen remote warning was dismissed.
+identity_alias;identity_alias;Analytics event linking an anonymous identity to a user.
+import;importDocXFile;User imported a .docx file into the teleprompter.
+import;importPDFFile;User imported a PDF file into the teleprompter.
+initial_purchase_event;initial_purchase_event;The user has started a weekly or monthly subscription (not an annual one, which starts with a trial).
+Intercom;Intercom.loginUser.failure;Failed to log user into Intercom (customer support).
+Intercom;Intercom.loginUser.failure.Error;Error details for Intercom login failure.
+Intercom;IntercomOpenFromSettings;User opened Intercom from app Settings.
+Intercom;IntercomOpenFromShortcut;User opened Intercom via a shortcut/quick action.
+Kids;KidsContentViewController;Screen with kids content or parental controls.
+Kids;KidsContentViewController.navigateBack();User navigates back from kids content.
+Kids;KidsContentViewController.selectKidsContent(_:);User selects a specific kids content item.
+Live;LiveStreamingAccountsViewController;Screen listing streaming accounts or adding new.
+Live;LiveStreamingAccountsViewController.connectNewAccount();User starts connecting a new streaming account.
+Live;LiveStreamingAccountsViewController.onAccountSelected(_:);User picks an account to use for streaming.
+Live;LiveStreamingFinishedViewController;Screen shown after a live stream ends.
+Live;LiveStreamingScreen.AudioInputSelected;User picked an audio input for live streaming.
+Live;LiveStreamingViewController;Main controller for performing a live stream.
+Live;LiveStreamingViewController.startLive();User starts broadcasting live.
+Live;LiveStreamingViewController.startPracticeRecording();User starts a practice run before going live.
+Live;LiveStreamingViewController.stopLive();User stops the live broadcast.
+Live;LiveStreamingViewController.stopLive().Error;Error stopping the live broadcast.
+Live;LiveStreamingViewController.stopPracticeRecording();User stops the practice run.
+Live;LiveStreamingViewController.toggleLiveStream();User toggles live streaming on/off.
+Live;LiveStreamingViewController.togglePracticeRecording();User toggles the practice recording on/off.
+LiveStreamLink;LiveStreamLinkViewController;Screen to enter or view a live streaming link.
+LiveStreamLink;LiveStreamLinkViewController.dismiss();User dismisses the live stream link screen.
+LiveStreamLink;LiveStreamLinkViewController.navigateBack();User navigates back from link screen.
+LiveStreamLink;LiveStreamLinkViewController.openLive();User starts or opens the live stream link.
+LiveStreamLink;LiveStreamLinkViewController.share(url:);User shares the live stream URL.
+LiveStreamLink;LiveStreamTitleViewController;Screen to set or edit the stream's title.
+LiveStreamLink;LiveStreamTitleViewController.continueTap();User taps Continue after entering title.
+LiveStreamLink;LiveStreamTitleViewController.continueTap().Error;Error occurred on Continue tap.
+LiveStreamLink;LiveStreamTitleViewController.dismiss();User dismisses the stream title screen.
+LiveStreamLink;LiveStreamTitleViewController.navigateBack();User goes back from the stream title screen.
+LiveTutorial;LiveStreamTutorialViewController;Tutorial for setting up a live stream.
+LiveTutorial;LiveStreamTutorialViewController.dismiss();User dismisses the live streaming tutorial.
+LiveTutorial;LiveStreamTutorialViewController.navigateBack();User navigates back from tutorial.
+LiveTutorial;LiveStreamTutorialViewController.navigateToEnterURL();User proceeds to enter the stream URL.
+LiveURL;LiveStreamURLConfigViewController;Screen to configure a live stream URL.
+LiveURL;LiveStreamURLConfigViewController.dismiss();User dismisses the URL config screen.
+LiveURL;LiveStreamURLConfigViewController.navigateBack();User navigates back from URL config.
+LiveURL;LiveStreamURLConfigViewController.openLive();User starts a live stream from config screen.
+Login;LoginScreen;User is on the login screen.
+Login;LoginScreenAppleError;Error with Apple sign-in on login screen.
+Login;LoginScreenAppleRegistrationError;Error registering with Apple sign-in on login.
+Login;LoginScreenAppleSignInSuccess;Successful Apple sign-in on login screen.
+Login;LoginScreenAppleSignInSuccessWithRegistration;Apple sign-in plus new account registration on login.
+Login;LoginScreenGoogleRegistrationError;Google registration error on login screen.
+Login;LoginScreenGoogleSignInSuccess;Google sign-in success on login screen.
+Login;LoginScreenGoogleSignInSuccessWithRegistration;Google sign-in success plus new registration.
+Login;LoginScreenSignInError;Generic error signing in on login screen.
+Login;LoginScreenSignInTap;User taps sign in button on login screen.
+Login;LoginScreenSignInWithApple;User taps Sign in with Apple on login screen.
+Login;LoginScreenSignInWithGoogleError;Error signing in with Google from login screen.
+Login;LoginScreenSingInSuccess;User successfully signed in (typo in event name).
+Login;LoginViewControllerNew;A newer or updated version of the login flow/screen.
+Manage;ManageAccountViewController;Screen to manage an existing connected account.
+Manage;ManageAccountViewController.dismiss();User dismisses Manage Account screen.
+Manage;ManageAccountViewController.handleError(_:);An error is handled on Manage Account screen.
+Manage;ManageAccountViewModel.deleteAction();User tries to delete the connected account.
+Manage;ManageAccountViewModel.reconnectAccountAction();User tries to reconnect the account.
+Margin;MarginEditorScreen;Screen to edit or set teleprompter margins.
+Margin;MarginsSetupTap;User taps to confirm margin setup.
+Mirroring;MirroringWarningShown;Warning about mirrored text was displayed.
+Mirroring;MirroringWarningUpgradeTap;User taps Upgrade on the mirroring warning.
+New;NewupgradeAnnualTierTap;User taps annual subscription tier.
+New;NewupgradeContinueTap;User taps continue on the new upgrade screen.
+New;NewupgradeMonthlyTierTap;User taps monthly subscription tier.
+New;newupgradePurchase;User completed a purchase on the new upgrade flow.
+New;NewUpgradeScreen;New paywall or upgrade screen variation.
+NoRatingBecauseOfNoSceneError;NoRatingBecauseOfNoSceneError;Rating prompt wasn't shown due to missing context/scene.
+Onboarding;OnboardingReadingOptions;Onboarding step about text/reading choices.
+Onboarding;OnboardingRecordingOptions;Onboarding step explaining how recording works.
+Onboarding;OnboardingRemoteOptions;Onboarding step for remote control usage.
+Onboarding;onboardingShow;Onboarding flow is shown to the user.
+Onboarding;OnboardingSourcePicker;Onboarding step to pick the content source.
+Onboarding;OnboardingUpgradeScreen;User sees an upgrade prompt during onboarding.
+open;openedFromWeb;App was opened via a web link or URL scheme.
+open;openInTelepromterFile;User opened a file with 'Open in...' Teleprompter.
+open;openInTelepromterFile.Error;Error occurred opening that file.
+OpenScript;OpenScript;User opens an existing script.
+PastedSpeedAndFontsize;PastedSpeedAndFontsize;User pasted both speed & font size settings to a script
+paywall;paywall_close;User closed the paywall or it auto-closed.
+paywall;paywall_decline;User declined or dismissed the paywall offer.
+paywall;paywall_open;User opened the paywall (duplicate naming).
+paywall;PaywallCountDownBeforeCloseStarted;Countdown started on paywall before closure is possible.
+paywall;paywallOpen;Paywall screen is displayed to the user.
+paywall;paywallPresentationRequest;System requests that a paywall be shown.
+paywall;paywallProductsLoad_complete;Loaded IAP product info for the paywall.
+paywall;paywallProductsLoad_start;Started loading product info for paywall.
+paywall;paywallResponseLoad_complete;Successfully retrieved the paywall config.
+paywall;paywallResponseLoad_fail;Failed to load paywall data.
+paywall;paywallResponseLoad_notFound;No matching paywall config found.
+paywall;paywallResponseLoad_start;Request began for paywall config.
+paywall;PaywallVersion1ScreenRestoreTap;User taps Restore Purchase on paywall version 1.
+paywall;PaywallVideoPlayer.Error;Error playing or loading video on paywall.
+paywall;paywallWebviewLoad_complete;A web-based paywall finished loading.
+paywall;paywallWebviewLoad_start;A web-based paywall began loading.
+PlainTextExport;PlainTextExport;User exports script in plain text format.
+PlayerScreen;Player_screen;Indicates the teleprompter player screen is active.
+PlayerScreen;PlayerScreenInfoShown;An info overlay or tutorial shown on player screen.
+PlayerScreen;PlayerScreenMirroringWarningShown;Mirroring warning displayed on player screen.
+PlayerScreen;PlayerScreenMirroringWarningUpgradeTap;User taps Upgrade on mirroring warning.
+PlayerScreen;PlayerViewController.decreaseSpeedAction(_:)Command;A command to decrease teleprompter scroll speed.
+PlayerScreen;PlayerViewController.goDownAction(_:)Command;A command to scroll down the script.
+PlayerScreen;PlayerViewController.goUpAction(_:)Command;A command to scroll up the script.
+PlayerScreen;PlayerViewController.increaseSpeedAction(_:)Command;A command to increase the scroll speed.
+PlayerScreen;PlayerViewController.playScriptAction(_:)Command;A command to start playing (auto-scrolling) the script.
+PlayerScreen;PlayerViewController.recordScriptAction(_:)Command;A command to begin recording the script.
+PlayerScreen;PlayerViewController.scrollToBottomAction(_:)Command;A command to jump to bottom of the script.
+PlayerScreen;PlayerViewController.scrollToTopAction(_:)Command;A command to jump to top of the script.
+PlayerViewControllerSpeechRecognizing;PlayerViewController.startSpeechRecognizing(resetTargetOffset:skipCountdown:);Starts speech recognition for auto-scroll.
+PlayerViewControllerSpeechRecognizing;PlayerViewController.startSpeechRecognizing(resetTargetOffset:skipCountdown:).Error;Error starting speech recognition.
+PlayerScreen;PlayerViewController.startStopScrollingAction(_:)Command;Toggle auto-scrolling start/stop.
+PlayerViewControllerSpeechRecognizing;PlayerViewController.stopSpeechRecognition();Stops speech recognition.
+PlayerViewController.toggle;PlayerViewController.toggleCueIndicator(_:)Command;Toggles on-screen cue indicators.
+PlayerViewController.toggle;PlayerViewController.toggleLexendFont(_:)Command;Switches script font to Lexend or back.
+PlayerViewController.toggle;PlayerViewController.toggleMirrorHorizontal(_:)Command;Flips text horizontally.
+PlayerViewController.toggle;PlayerViewController.toggleMirrorVertical(_:)Command;Flips text vertically.
+PlayerViewController.toggle;PlayerViewController.toggleOpenDyslexic(_:)Command;Toggles the OpenDyslexic font.
+PlayerViewController.toggle;PlayerViewController.toggleRemainingTime(_:)Command;Shows/hides remaining time counter.
+PlayerViewController.toggle;PlayerViewController.toggleUppercase(_:)Command;Toggles uppercase text.
+Practice;PracticeFinishedViewController;Screen shown after a practice live streaming finishes.
+Practice;PracticeFinishedViewController.deleteRecording();User deletes the practice live streaming.
+Practice;PracticeFinishedViewController.saveRecording();User saves the practice live streaming.
+PresentationRemoteScreen;PresentationRemoteScreen;Screen controlling a presentation or teleprompter remotely.
+Preview;PreviewScreenCleanAudioTooLongWarning;Warning that audio is too long for cleaning feature.
+Preview;PreviewScreenOpenCaptionEditor;User opens the caption editor from preview screen.
+Preview;PreviewScreenShowCaptionTooLongWarning;Warning that captions are too long.
+Preview;PreviewScreenShowUpgradeOnCaptions;Upgrade prompt for using captions in preview.
+Preview;PreviewScreenShowUpgradeOnCaptionsWarning;Warning to upgrade for caption features.
+Preview;PreviewScreenShowUpgradeOnCleanAudioWarning;Warning to upgrade for clean audio feature.
+Preview;PreviewScreenVideoError;Error occurred on the preview screen.
+product_change_event;product_change_event;The subscriber has changed their subscription plan, which could be a switch between plans (weekly, monthly, or annual).
+proUserSignIn;proUserSignIn;A Pro-tier user signed in.
+purchase_abandoned;purchase_abandoned;User left the purchase flow before completion.
+purchase;purchasefailed.Error;Error during an in-app purchase transaction.
+purchase;purchasestart;User initiates a purchase flow.
+purchase;purchasesuccess;User successfully completes the purchase.
+Rating;RatingPromptAlertPresented;In-app rating prompt (alert) was presented.
+Rating;RatingPromptNextTimeTapped;User tapped 'maybe later' or 'next time' on rating prompt.
+Rating;RatingPromptShown;Rating prompt was shown to the user.
+Rating;RatingPromptShownImmediately;Rating prompt shown immediately (no delay).
+Record;Record_screen;User is on the record screen.
+Record;Record_screen_Error;An error occurred on the record screen.
+Record;Record_screen_Success;Recording action succeeded on record screen.
+Record;Record.FreeSpaceWarning;Warning about low disk space while recording.
+Record;Record4KWarningShown;A 4K recording warning was displayed for free users that they cannot use it
+Record;RecordErrorSetupSession;Error setting up the camera/mic session for recording.
+Record;RecordErrorSetupSession*AudioSession;Error with audio session setup.
+Record;RecordErrorSetupSession*NoActiveInput;No active audio/video input found.
+Record;RecordErrorSetupSession*NoAudioInput;No audio input detected.
+Record;RecordIn4K;User is turning on 4K resolution.
+Record;RecordingError;A general error during recording.
+Record;Recordings.copyVideo.noURL.Error;No valid video URL to copy.
+Record;Recordings.didPickDocumentsAt;User picked recording via a file browser to import
+Record;Recordings.PHPicker.didFinishPicking;User finished picking files/videos with Photo Picker.
+Record;Recordings.removeAllFiles.contentsOfDirectory.Error;Error removing all files in directory.
+Record;Recordings.removeAllFiles.Success;All stored recordings successfully removed.
+Record;Recordings.removeRecording.Success;A specific recording was removed.
+Record;RecordScreen.AudioInputSelected;User picks an audio input on the record screen.
+Record;RecordScreen.didFinishRecording.Cancel;User cancels after finishing a recording.
+Record;RecordScreen.didFinishRecording.Cancel.Error;Error occurred during that cancel flow.
+Record;RecordScreen.didFinishRecording.Error;Error after finishing a recording.
+Record;RecordScreen.didFinishRecording.Success;Recording finished successfully.
+RecordScreen4KTap;RecordScreen4KTap;User enables or taps the 4K recording option.
+Record;RecordScreenFirstRecordAuthorizationError;First-time mic/camera auth error.
+RecordScreenFPS;RecordScreenFPS;User changes the FPS setting on record screen.
+RecordScreenResolution;RecordScreenResolution;User changes resolution on the record screen.
+RecordViewController.startSpeechRecognizing;RecordViewController.startSpeechRecognizing(resetTargetOffset:skipCountdown:);Begins speech recognition during recording.
+Record;RecordViewController.stopSpeechRecognition();Stops speech recognition during record.
+Regist;RegisterOnWeb;User is registered on our backend
+Regist;RegistrationScreen;Screen where user registers an account.
+Regist;RegistrationScreenGoogleRegistrationError;Error registering via Google on registration screen.
+Regist;RegistrationScreenGoogleSignInSuccess;Successfully signed in with Google on registration screen.
+Regist;RegistrationScreenGoogleSignInSuccessWithRegistration;Completed new registration via Google sign-in.
+Regist;RegistrationScreenRegisterSuccess;User successfully registered.
+Regist;RegistrationScreenRegisterTap;User taps the Register button.
+Regist;RegistrationScreenSignInWithApple;User taps Sign in with Apple on registration screen.
+Regist;RegistrationScreenSignInWithGoogleError;Error signing in with Google on registration screen.
+Regist;RegistrationScreenSkipTap;User skips registration.
+Regist;RegistrationSinginWithAppleSuccess;User successfully signed in with Apple on registration (typo).
+Regist;RegistrationViewControllerNew;A new or updated registration flow.
+Remote;RemoteConfigManager.shared.remoteConfig.fetch;Fetching remote configuration (feature flags).
+Remote;RemoteConfigManager.shared.remoteConfig.fetch.Error;Error fetching remote configuration.
+Remote;RemoteControllerScreen;Screen for controlling teleprompter remotely.
+Remote;RemoteControlProFeature;User alerted that the remote control is a pro feature
+Remote;RemoteOptionsViewControllerNew;An updated remote options screen.
+remove;removeAllRecordings;User removed all recordings.
+remove;removeFolder;User removed a folder.
+remove;removeRecording;User removed a single recording.
+remove;removeScript;User removed a script.
+renewal_event;renewal_event;The subscription has been successfully renewed.
+Rephrase;RephraseScreen;Screen for AI-based text rephrasing.
+Rephrase;RephraseScreenCreativeSelected;User chooses the 'creative' rephrase style.
+Rephrase;RephraseScreenExpandSelected;User expands the text with rephrase.
+Rephrase;RephraseScreenFormalSelected;User picks a formal style rephrase.
+Rephrase;RephraseScreenInsertTap;User inserts rephrased text into the script.
+Rephrase;RephraseScreenRephraseSelected;User selects basic rephrase option.
+Rephrase;RephraseScreenShortenSelected;User shortens text with rephrase.
+Rephrase;RephraseScreenSimplifySelected;User simplifies text with rephrase.
+Rephrase;RephraseUpgradeWarning;Upgrade prompt for rephrase feature.
+Rephrase;RephraseUpgradeWarningTap;User taps Upgrade on rephrase warning.
+Replace;ReplaceBackgroundViewController;Screen to replace/green-screen the video background.
+Replace;ReplaceBackgroundViewController.dismiss();User dismisses the background replacement screen.
+reset;reset;A reset action (settings/data) was performed.
+Resize;ResizeVideoScreen;Screen to adjust the video's dimensions.
+Resize;ResizeVideoScreen.preset;User chooses a dimension preset on resize screen.
+restore;restore_fail;Restoring purchases failed.
+restore;restore_start;User started the restore purchases process.
+reviewTap;reviewTap;User taps to leave a review or rating.
+salesSentToAgent;salesSentToAgent;User or purchase info sent to a sales/support agent.
+save;saveToPhotoLibrary;User saved a video/photo to the iOS library.
+save;saveToPhotoLibraryError;Error saving media to camera roll.
+save;saveVideoAtPathFailed;Failed to save a video at a certain path.
+save;saveVideoAtPathFailed.Error;Error details for saving a video.
+script;scriptById.Error;Error retrieving a script by ID.
+script;scriptCreated;A new script was created.
+ScriptGeneratorScreen;ScriptGeneratorScreen;Screen using AI to generate scripts.
+script;ScriptGeneratorUpgrade;Upgrade prompt for script generator.
+script;ScriptMovedToFolder;User moved a script to a specific folder.
+script;ScriptMovedToHome;User moved a script back to the home directory.
+script;ScriptRemoved;A script was deleted/removed.
+script;scriptRenamed;User renamed a script.
+script;scripts.Error;Error fetching or listing scripts.
+Second;SecondaryDisplayConnected;An external/secondary display got connected.
+Second;secondOrMoreOpening;User opened the app again (2nd+ time).
+Select;SelectAudienceViewController;User picks an audience setting (public, private, etc.).
+Select;SelectAudienceViewController.dismiss();User dismisses the audience selection.
+Select;SelectAudienceViewController.navigateBack();User navigates back from audience selection.
+Select;SelectAudienceViewController.selectAudience(_:);User confirms a particular audience choice.
+Selected;SelectedSubtitleStyleViewController.finishedSubcribing;User finished subscribing for a subtitle style.
+Selected;SelectedSubtitleStyleViewController.loaded;Subtitle style selection view loaded.
+SelectPlatform;SelectPlatformViewController;Screen to select a streaming or sharing platform.
+SelectPlatform;SelectPlatformViewController.dismiss();User dismisses the platform selection.
+SelectPlatform;SelectPlatformViewController.selectPlatform(_:);User picks a platform to connect or stream.
+send;sendAnonRegistrationEvent.Error;Error sending an anonymous registration event.
+send;sendRegistrationEvent.Error;Error sending a standard registration event.
+session;session_start;A user session started (analytics or usage).
+session;sessionRuntimeErrorOccurred;A runtime error occurred during the user session.
+SetLexendFont;SetLexendFont;User changed the font to Lexend.
+setNew;setNewMicrophoneInput;User or system changes the microphone input.
+setNew;setNewMicrophoneInput.Error;Error while switching to a new microphone input.
+SetOpenDyslexicFont;SetOpenDyslexicFont;User changed the font to OpenDyslexic.
+setScriptsToSynced.Error;setScriptsToSynced.Error;Error marking scripts as synced in the system.
+Settings;Settings4KNotSupportedWarning;Warning: 4K recording not supported by device or plan.
+Settings;Settings4KPortraitWarning;Warning about 4K in portrait mode.
+Settings;Settings4KTap;User taps the 4K option in Settings.
+Settings;Settings4KWarningShown;User was shown a 4K-related warning in Settings.
+Settings;Settings4KWarningUpgradeTap;User taps Upgrade on the 4K warning.
+Settings;SettingsApplymarginsonrecordscreen;User toggles margins for the recording screen.
+Settings;SettingsAutoUppercase;User toggles auto-uppercase of text.
+Settings;SettingsAutouppercase;(Duplicate) Toggle for auto uppercase.
+Settings;SettingsBionicreadingenabled;User enables bionic reading in Settings.
+Settings;SettingsCountdownSecondsChanged;User changes the countdown timer length in Settings.
+Settings;SettingsFlipHorizontally;User toggles horizontal flip in Settings.
+Settings;SettingsFliphorizontally;(Duplicate) Another horizontal flip toggle.
+Settings;SettingsFlipVertically;User toggles vertical flip in Settings.
+Settings;SettingsFlipvertically;(Duplicate) Another vertical flip toggle.
+Settings;SettingsHidesnavbarwhileplaying;User toggles hiding navigation bar while scrolling.
+Settings;SettingsHideTopBar;User toggles hiding the top bar in teleprompter.
+Settings;SettingsMoveScript;User changes how close/far script is from camera lens.
+Settings;SettingsMovescriptfurtherfromcamera;User sets script position further from camera.
+Settings;SettingsNeedsCountdown;User toggles a countdown before recording.
+Settings;SettingsNeedscountdown;(Duplicate) Another countdown toggle.
+Settings;SettingsRecordpreferfrontmicrophone;User prefers front microphone by default when recording.
+SettingsScreen;SettingsScreen;User opens the main Settings screen.
+SettingsScreen;Settingsscreen;(Duplicate) Another event indicating the Settings screen.
+SettingsScreen;SettingsScreenBluetoothTap;User taps to open Bluetooth settings.
+SettingsScreen;SettingsScreenFeatureRequestTap;User taps to request a new feature.
+SettingsScreen;SettingsScreenPrivacyTap;User taps to view the privacy policy.
+SettingsScreen;SettingsScreenPromoReviewTap;User taps a promo or review button in settings.
+SettingsScreen;SettingsScreenRestoreTap;User taps Restore Purchases in settings.
+SettingsScreen;SettingsScreenSelectFont;User picks a font from settings.
+SettingsScreen;SettingsScreenShareTap;User taps a share button from settings.
+SettingsScreen;SettingsScreenShowFootpedal;User opens foot pedal setup from settings.
+SettingsScreen;SettingsScreenShowGameController;User opens game controller setup from settings.
+SettingsScreen;SettingsScreenShowKeycontrolls;User views keyboard control info in settings.
+SettingsScreen;SettingsScreenShowWebRemote;User opens web remote instructions from settings.
+SettingsScreen;SettingsScreenUpgradeButtonTap;User taps upgrade button in Settings.
+SettingsScreen;SettingsScreenWebManageSubscriptionTap;User opens web subscription management.
+SettingsScreen;SettingsScreenYoutubeTap;User taps YouTube integration in Settings.
+Settings;SettingsShowCueIndicator;User toggles cue indicators in teleprompter.
+Settings;SettingsShowcueindicator;(Duplicate) Another toggle for cue indicators.
+Settings;SettingsShowProgress;User toggles progress bar on teleprompter.
+Settings;SettingsShowprogress;(Duplicate) Another toggle for progress bar.
+Settings;SettingsShowremainingtime;User toggles display of remaining time.
+Settings;SettingsSpeechrecognitionsmartscrollingenabled;Toggles speech recognition for smart scrolling.
+Settings;SettingsSyncRecording;User toggles sync of script scrolling and recording.
+Settings;SettingsSyncscrollingandrecording;(Duplicate) Another toggle for scrolling-record sync.
+Settings;SettingsTapToScroll;User toggles tap-to-scroll feature.
+Settings;SettingsTaptoscroll;(Duplicate) Another toggle for tap-to-scroll.
+Settings;SettingsWebRemoteAlertShown;Alert or warning about web remote was shown.
+setup;setupFolderObserver;App sets up a folder observer/watcher.
+setup;setupFolderObserver.Error;Error setting up the folder observer.
+setup;setupScriptObserver;App sets up a script observer/watcher.
+setup;setupScriptObserver.Error;Error setting up the script observer.
+Shortcut;ShortcutItemPerformedbugsOrIssues;User triggered a shortcut item to report bugs/issues.
+Shortcut;ShortcutItemPerformeddeleteWarning;Shortcut triggered a delete warning prompt.
+Shortcut;ShortcutItemPerformeddontDelete;User decided not to delete after the shortcut prompt.
+Shortcut;ShortcutItemPerformedneedHelp;User triggered a 'Need Help' shortcut.
+Show;ShowCancelledNotAnymoreActivePaid;User sees their paid subscription is now inactive (canceled).
+Show;ShowCancelledNotAnymoreActivePaidAppDelegate;Same message triggered at app launch via AppDelegate.
+Show;ShowCancelledNotAnymoreActiveTriaAppDelegatel;Trial canceled, shown from app delegate (typo).
+Show;ShowCancelledNotAnymoreActiveTrial;User sees their trial is no longer active.
+Show;ShowCancelledStillActivePaidSubscription;Canceled subscription but still in active period.
+Show;ShowCancelledStillActivePaidSubscriptionAppDelegate;Shown via AppDelegate logic.
+Show;ShowCancelledStillActiveTrial;Canceled trial but still active until expiration.
+Show;ShowCancelledStillActiveTrialAppDelegate;Shown from AppDelegate for a canceled trial.
+Show;ShowImportingUpgradeWarning;Warning that importing requires an upgrade.
+Show;ShowOneTimeOfferImmediately;A one-time offer is displayed immediately (on cancel?).
+Show;showPaywallOnSecondAppOpen;Paywall is shown on the user's second launch.
+Show;showPurchaseFromAppStore;Shows a purchase prompt directly from the App Store.
+Show;ShowRecordings;User opens the list of recordings.
+ShowReferralScreen;ShowReferralScreen;User sees a referral or invite screen.
+ShowRegistrationFromProfileSettings;ShowRegistrationFromProfileSettings;User starts registration from profile settings.
+ShowRegistrationFromSettings;ShowRegistrationFromSettings;User starts registration from main settings.
+ShowRemoteEdit;ShowRemoteEdit;User is shown or enters a remote editing mode.
+Show;ShowScriptLimitWarning;User is warned about a maximum number of scripts limit
+Show;ShowscriptLimitWarning;(Duplicate) Another script limit warning.
+ShowTrialExtensionImmediately;ShowTrialExtensionImmediately;A trial extension offer is displayed right away.
+SignOut;SignOut;User signed out of their account.
+SortingTap;SortingTap;User taps a sorting option (by name/date).
+sourceSelected;sourceSelected;User selected a source (camera, doc, etc.) for script content.
+Speech;SpeechSupportedLanguagesViewController;Screen listing speech recognition languages.
+Speech;SpeechSupportedLanguagesViewController.dismiss();User dismisses that languages screen.
+start;startAudioSession;Starts the audio session for recording/playback.
+start;startAudioSession.Error;Error starting that audio session.
+start;startRecording.Error;Error occurred while starting a recording.
+stop;stopPeripheral.Error;Error stopping or disconnecting a peripheral device.
+subscription;subscription_start;A subscription was started or activated.
+subscription;subscriptionStatus_didChange;User's subscription status changed.
+subtitle;subtitleBackgroundColorChanged;User changed the subtitle background color.
+subtitle;SubtitleEditorScreen;Screen for editing subtitles (similar to caption editor).
+subtitle;SubtitlesGeneratorError;Error auto-generating subtitles.
+subtitle;SubtitleStyleSelectorViewController.categorySelected;User picks a style category for subtitles.
+subtitle;SubtitleStyleSelectorViewController.loaded;Subtitle style selector screen loaded.
+subtitle;SubtitleStyleSelectorViewController.loadingFinished;Loading of styles or preview finished.
+SubtitleStyleSelectorViewController.styleSelected;SubtitleStyleSelectorViewController.styleSelected;User selects a specific subtitle style.
+sync;syncFolderToCloud.Error;Error syncing a folder to the cloud.
+sync;syncScriptToCloud;User or system syncs a script to the cloud.
+sync;syncScriptToCloud.Error;Error syncing a script to the cloud.
+TeleprompterDidLoaded;TeleprompterDidLoaded;Teleprompter functionality/view finished loading.
+Tele;TeleprompterFileExport;User exports a file or script from the teleprompter.
+Tele;TeleprompterFileExport.Error;Error exporting teleprompter file.
+Thank;ThankYouScreen;A 'thank you' or confirmation screen is shown after purchase
+Thank;ThankYouScreenCancelTap;User taps Cancel on the thank-you screen.
+Thank;ThankYouScreenSendTap;User taps Send  feedback on the thank-you screen.
+transaction_abandon;transaction_abandon;User abandoned the purchase transaction.
+transaction_complete;transaction_complete;Transaction completed successfully.
+transaction_fail;transaction_fail;Transaction failed.
+transaction_start;transaction_start;Transaction process started.
+trial_cancelled_event;trial_cancelled_event;The user canceled their trial before it converted to a paid subscription.
+trial_converted_event;trial_converted_event;The user's trial has successfully converted into a paid subscription.
+trial_started_event;trial_started_event;The user has started a free trial, which is only available when subscribing to an annual plan.
+TrialExtensionScreen;TrialExtensionScreen;Screen offering the user a trial extension.
+TrialScreenCloseConfirmation;TrialScreenCloseConfirmation;Confirmation prompt to close the trial screen.
+TrialScreenCloseTap;TrialScreenCloseTap;User taps to close the trial screen.
+TrialScreenPurchaseSuccess;TrialScreenPurchaseSuccess;User successfully purchased from the trial screen.
+TrialScreenSubscribeTap;TrialScreenSubscribeTap;User tapped Subscribe on the trial screen.
+trigger_fire;trigger_fire;A custom trigger or automation fired.
+Trim;TrimVideoViewController;Screen to trim a recorded video.
+Trim;TrimVideoViewController.sliceDelete;User deletes a slice/segment of the video.
+Trim;TrimVideoViewController.trimmed;User finishes trimming the video.
+try;tryLoadingSlicesWithFallbackMethods;App tries fallback methods to load video slices.
+try;tryResolvingCorruptedVideoSliceURLs;App attempts to repair corrupted video slice URLs.
+type;typeSelected;User picked a certain content type (e.g. blog, Q&A).
+type;TypeSelectorScreen;Screen to choose a script or content type to create.
+uncancellation_event;uncancellation_event;The user has reactivated a previously canceled subscription (set the new plan).
+update;updateEmailAddressOnBackend.Error;Error updating the user's email on the backend.
+update;updateFallbackSliceURLsForRecording;App updates fallback slice URLs for a recording.
+update;updateRecordingURL;Recording's file URL was updated or changed.
+update;updateRecordingURLNoRecording.Error;Error updating recording URL because none existed.
+update;updateScript;User edited or updated an existing script.
+update;updateTextViewPosition;User changed the teleprompter text position on screen.
+update;updateVideoOrientation.Error;Error changing the recorded video's orientation.
+user;user_attributes;Analytics event updating user traits or attributes.
+userDidTakeScreenshotNotification;userDidTakeScreenshotNotification;System event: user took a screenshot.
+Video;VideoExportFailed;Video export process failed.
+Video;VideoExportFailed.Error;Error info for failed video export.
+Video;VideoManager.generateVideo.Error;Error generating the final video.
+Video;VideoPreview.handleAudioFile.Error;Error adding or handling audio in preview.
+VideoPreview;VideoPreviewScreen;Preview screen for the recorded video.
+VideoPreview;VideoPreviewScreen.addCaptionsTap;User taps to add captions in preview.
+VideoPreview;VideoPreviewScreen.addCaptionsTap.maxVideoDurationReached;Video too long to add captions.
+VideoPreview;VideoPreviewScreen.addWatermarkTap;User taps to add a watermark.
+VideoPreview;VideoPreviewScreen.applyGreenScreen;User applies a green screen effect.
+VideoPreview;VideoPreviewScreen.checkedSavedJobsOrOpenLanguagePicker;Checks saved transcriptions or opens language picker.
+VideoPreview;VideoPreviewScreen.CleanAudioTap;User taps to clean audio in preview.
+VideoPreview;VideoPreviewScreen.cleanAudioTap;Another event for cleaning audio from preview.
+VideoPreview;VideoPreviewScreen.exportVideo;User exports the video from preview.
+VideoPreview;VideoPreviewScreen.mirrorVideoTap;User toggles mirroring the video in preview.
+VideoPreview;VideoPreviewScreen.optionSelected;User picks an option (resolution, ratio, etc.).
+VideoPreview;VideoPreviewScreen.removeWatermarkTap;User taps to remove a watermark.
+VideoPreviewScreen.SaveSuccess;VideoPreviewScreen.SaveSuccess;User successfully saved the previewed video.
+VideoPreview;VideoPreviewScreen.showUpgradeAlert.Captions;Upgrade prompt to enable captions.
+VideoPreview;VideoPreviewScreen.showUpgradeAlert.CleanAudio;Upgrade prompt to enable clean audio.
+VideoPreview;VideoPreviewScreenRemoveWatermarkTap;(Duplicate) user taps remove watermark.
+VideoPreview;VideoPreviewScreenSaveStarted;User began saving the preview video.
+VideoPreview;VideoPreviewScreenSaveSuccess;Video successfully saved from preview.
+VideoPreview;videoPreviewVideoLoading;The preview is loading the video content.
+videorecorder;videoRecorderAuthFinished;Finished requesting camera/microphone permissions.
+videorecorder;videoRecorderAuthStarted;Began requesting camera/microphone permissions.
+videorecorder;videoRecorderExportFinished;User's export from the video recorder finished.
+videorecorder;videoRecorderExportRawPressed;User pressed 'export raw' video in the recorder.
+videorecorder;videoRecorderExportStarted;User started a video export from the recorder.
+videorecorder;videoRecorderPaymentFinished;An in-recorder payment finished successfully.
+videorecorder;videoRecorderPaymentStarted;User initiated payment in the video recorder flow.
+videorecorder;videoRecorderPlaybackOpened;User opened a playback screen for recorded videos.
+videorecorder;videoRecorderRawExported;The raw video export finished successfully.
+videorecorder;videoRecorderRecorderOpened;User opened the main recorder interface.
+videoRecorderRecordingStarted;videoRecorderRecordingStarted;Recording started in the video recorder.
+videorecorder;videoRecorderVideosOpened;User opened a list or gallery of recorded videos.
+videorecorder;videoRecorderWatermarkPressed;User taps to add or remove a watermark in recorder.
+Visual;VisualTimerView;A visual countdown/overlay timer is displayed.
+Visual;VisualTimerViewPauseTimer;User pauses the visual timer.
+Visual;VisualTimerViewResumeTimer;User resumes the timer.
+Visual;VisualTimerViewStartTimer;User starts the visual timer.
+Visual;VisualTimerViewStopTimer;User stops the timer.
+WCSession*ERROR;WCSession*ERROR;Error with Apple Watch Connectivity session.
+web;webpaywall_open;A web-based paywall was opened.
+Web;WebRemoteScreen;Screen for controlling the teleprompter via the web.
+Web;WebRemoteScreen.UpgradeWarningUpgradeTap;User sees upgrade warning on web remote screen & taps upgrade.
+Welcome;WelcomeBackScreen;Screen to greet returning users after a long absence.
+Welcome;WelcomeScreen;Generic welcome or intro screen for new users.
+Welcome;WelcomeViewControllerNew;A newer version of the welcome screen.
+Whats;WhatsnewCloseTap;User closes the 'What's New' screen.
+Whats;WhatsnewReviewTap;User taps a review or feedback button on 'What's New' screen.
+Whats;WhatsNewScreenContinueTapped;User taps continue on a 'What's New' screen.
+Whats;WhatsNewScreenOpened;A 'What's New' screen is opened.
+Whats;WhatsNewScreenShowed;Indicates 'What's New' screen was displayed.
+Word;WordEditStyleView.colorWellChanged;User changes color for a selected word.
+Word;WordEditStyleView.onEmphasizeTap;User emphasizes (bolds) the selected word.
+Word;WordEditStyleView.onHideTap;User hides or masks the selected word.
+Word;WordEditStyleView.onLineBreakTap;User adds a line break after a word.
+Word;WordEditStyleView.onNoBreakTap;User removes or avoids a line break.
+Word;WordEditStyleView.onPageBreakTap;User inserts a page break after a word.
+Word;WordEditTimingView.changedWordTiming;User changes timing for a specific word.
+Word;WordEditViewController.deleteSubtitle;User deletes a subtitle within word editor.
+Word;WordEditViewController.finishedWordEditing;User completes word editing.
+Word;WordEditViewController.keyboardIsSelected;Keyboard mode is active in the word editor.
+Word;WordEditViewController.loaded;Word edit view finished loading.
+Word;WordEditViewController.selectedWordForEdit;A specific word was selected for editing.
+Word;WordEditViewController.styleEditingIsSelected;User enabled style editing mode for a word.
+Word;WordEditViewController.timeEditingIsSelected;User enabled time editing mode for a word.
+Word;WordInsertViewController.finishedWordEditing;User finished inserting a new word.
+Word;WordInsertViewController.loaded;Word insertion view loaded.

@@ -1,0 +1,403 @@
+2025-05-24 17:21:28,210:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:21:28,210:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:21:28,210:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:21:28,210:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:24:14,103:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 6.4 x 4.8 in image.
+
+
+2025-05-24 17:24:14,112:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/max_days_plot.png
+
+
+2025-05-24 17:24:48,232:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 6.4 x 4.8 in image.
+
+
+2025-05-24 17:24:48,233:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/max_days_plot_nem_0.png
+
+
+2025-05-24 17:27:37,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:27:37,623:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:27:37,624:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:27:37,624:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-24 17:30:41,890:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 6.4 x 4.8 in image.
+
+
+2025-05-24 17:30:41,891:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/covert_vs_cancaled_plot.png
+
+
+2025-05-24 17:31:55,361:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_10888\1133094035.py:11: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-24 17:36:25,289:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 13 x 13 in image.
+
+
+2025-05-24 17:36:25,289:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/country_df_group_plot.png
+
+
+2025-05-24 17:44:03,262:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 6.4 x 4.8 in image.
+
+
+2025-05-24 17:44:03,262:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/covert_vs_cancaled_plot.png
+
+
+2025-05-24 17:44:08,532:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_10888\1133094035.py:11: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-24 17:44:15,644:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 13 x 13 in image.
+
+
+2025-05-24 17:44:15,646:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/country_df_group_plot.png
+
+
+2025-05-24 17:45:46,910:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-24 17:46:12,112:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 9 x 8 in image.
+
+
+2025-05-24 17:46:12,114:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/salary_plot.png
+
+
+2025-05-24 17:46:12,256:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-24 17:46:12,443:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_point : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:12,508:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_text : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:14,029:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-24 17:46:14,240:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_point : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:14,295:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_text : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:20,304:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 9 x 8 in image.
+
+
+2025-05-24 17:46:20,304:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/salary_plot.png
+
+
+2025-05-24 17:46:21,953:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-24 17:46:22,125:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_point : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:22,188:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_text : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:23,652:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-24 17:46:23,854:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_point : Removed 1 rows containing missing values.
+
+
+2025-05-24 17:46:23,918:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_text : Removed 1 rows containing missing values.
+
+
+2025-05-25 08:21:59,551:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:21:59,554:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:21:59,554:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:21:59,555:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:22:36,790:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 6.4 x 4.8 in image.
+
+
+2025-05-25 08:22:36,797:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/covert_vs_cancaled_plot.png
+
+
+2025-05-25 08:22:42,595:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_10888\1133094035.py:11: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+2025-05-25 08:22:46,518:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 13 x 13 in image.
+
+
+2025-05-25 08:22:46,518:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/country_df_group_plot.png
+
+
+2025-05-25 08:22:57,672:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-25 08:22:58,905:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 9 x 8 in image.
+
+
+2025-05-25 08:22:58,905:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/salary_plot.png
+
+
+2025-05-25 08:22:59,070:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-25 08:22:59,303:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_point : Removed 1 rows containing missing values.
+
+
+2025-05-25 08:22:59,388:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_text : Removed 1 rows containing missing values.
+
+
+2025-05-25 08:23:01,048:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-25 08:23:01,271:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_point : Removed 1 rows containing missing values.
+
+
+2025-05-25 08:23:01,355:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\layer.py:364: PlotnineWarning:
+
+geom_text : Removed 1 rows containing missing values.
+
+
+2025-05-25 08:25:40,119:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_17124\3468439053.py:6: DeprecationWarning:
+
+The argument `columns` for `DataFrame.pivot` is deprecated. It has been renamed to `on`.
+
+
+2025-05-25 08:30:14,262:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_17124\3068581060.py:16: DeprecationWarning:
+
+The argument `columns` for `DataFrame.pivot` is deprecated. It has been renamed to `on`.
+
+
+2025-05-25 08:34:30,499:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_17124\2424470305.py:9: MapWithoutReturnDtypeWarning:
+
+Calling `map_elements` without specifying `return_dtype` can lead to unpredictable results. Specify `return_dtype` to silence this warning.
+
+
+2025-05-25 08:34:31,385:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 6.4 x 4.8 in image.
+
+
+2025-05-25 08:34:31,385:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/days_plot.png
+
+
+2025-05-25 08:35:03,995:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 10 x 6 in image.
+
+
+2025-05-25 08:35:03,995:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/US_vs_ID_converted_count_top50.png
+
+
+2025-05-25 08:35:52,008:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 10 x 6 in image.
+
+
+2025-05-25 08:35:52,008:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/US_vs_ID_cancelled_event_count_top50.png
+
+
+2025-05-25 08:38:41,859:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:38:41,859:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:38:41,859:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-25 08:38:41,875:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-27 22:02:22,175:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-27 22:02:22,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-27 22:02:22,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-27 22:02:22,191:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-05-27 22:03:43,153:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\numpy\lib\function_base.py:2897: RuntimeWarning:
+
+invalid value encountered in divide
+
+
+2025-05-27 22:03:43,154:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\numpy\lib\function_base.py:2898: RuntimeWarning:
+
+invalid value encountered in divide
+
+
+2025-05-27 22:09:41,881:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_22032\881827194.py:1: DeprecationWarning:
+
+The argument `columns` for `DataFrame.pivot` is deprecated. It has been renamed to `on`.
+
+
+2025-05-27 22:11:18,462:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-27 22:11:18,763:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 8 x 8 in image.
+
+
+2025-05-27 22:11:18,763:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/session_plot.png
+
+
+2025-05-27 22:11:18,792:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-27 22:12:47,821:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-05-27 22:12:48,315:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:615: PlotnineWarning:
+
+Saving 8 x 8 in image.
+
+
+2025-05-27 22:12:48,315:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\ggplot.py:616: PlotnineWarning:
+
+Filename: ./images/session_plot.png
+
+
+2025-05-27 22:12:48,346:WARNING:C:\Users\tamas\anaconda3\envs\tele\Lib\site-packages\plotnine\stats\smoothers.py:347: PlotnineWarning:
+
+Confidence intervals are not yet implemented for lowess smoothings.
+
+
+2025-09-08 19:35:22,640:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-08 19:35:22,640:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-08 19:35:22,640:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-08 19:35:22,640:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-10 22:22:03,253:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-10 22:22:03,254:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-10 22:22:03,254:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-10 22:22:03,254:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-10 22:22:55,704:WARNING:C:\Users\tamas\AppData\Local\Temp\ipykernel_12380\3468439053.py:6: DeprecationWarning: The argument `columns` for `DataFrame.pivot` is deprecated. It has been renamed to `on`.
+
+2025-09-14 23:17:50,197:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-14 23:17:50,197:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-14 23:17:50,197:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-14 23:17:50,197:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
