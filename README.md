@@ -1,7 +1,7 @@
 ## Telepromter adatok elemzése - 3. Dataklub Házi Adatelemző Verseny
 
 Az adatelemző verseny a Dataklub (dataklub.hu) szervezésében jött létre.
-Az adatokat a Telepromter nevű, budapesti székhelyű IOS/Android alkalmazás ügyvezetője biztosította. A verseny során ~4 millió sororos felhasználói log alapján kellett minél jelentősebb üzleti értéket előállítani a Telepromter számára.
+Az adatokat a Telepromter nevű, budapesti székhelyű IOS/Android alkalmazás ügyvezetője biztosította. A verseny során ~4 millió sororos felhasználói log alapján kellett minél jelentősebb üzleti értéket előállítani a Telepromter számára. Habár nem volt meghatározva célirányosan, hogy mi számít üzleti értéknek, de az elemzésnek tartalmaznia kellett a próbaidőszakot elkezdő felhasználók fizetős ügyfelekké vagy lemorzsolódó felhasználókká válásának elemzését (Churn analyzis). 
 
 A verseny kettő fordulóból állt:
 1. online forduló: a versenyzőknek 8 hetük volt az elemzésük elkészítésére. A szervezők kiválasztották a 10 legígéretesebb beadott pályamunkát, majd a Telepromter ügyvezetőjével közösen megnevezték a 3 döntős versenyzőt.
