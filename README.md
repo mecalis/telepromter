@@ -16,6 +16,6 @@ Az elemzés során feltártam:
 - a népszerű, motiváló és a várakozásokkal ellentétben kevésbé "érdekes" funkciókat az alkalmazásban, amik az adatok alapján **befolyásolhatják a felhasználók döntését**
 - az egyes országok és régiók közötti különbségeket
 - a felhasználók eltérő alkalmazás használatát
-- az összefüggések a jövedelmi szintek és az előfizetési hajlandóság között, mely során rámutattam mely régiókban maradhattak **potenciális új előfizetők**
+- az összefüggéseket a jövedelmi szintek és az előfizetési hajlandóság között, mely során rámutattam mely régiókban maradhattak **potenciális új előfizetők**
 
 
