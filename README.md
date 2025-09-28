@@ -8,7 +8,7 @@ A verseny kettő fordulóból állt:
 1. online forduló: a versenyzőknek 8 hetük volt az elemzésük elkészítésére. A szervezők kiválasztották a 10 legígéretesebb beadott pályamunkát, majd a Telepromter ügyvezetőjével közösen megnevezték a 3 döntős versenyzőt.
 2. forduló: a 3 döntősnek élő szóban kellett egy 12 perces prezentáci során előadniuk az elemzésüket egy 6 fős data science zsűri és közel 70 főnyi érdeklődő előtt, majd minden zsűri kérdéseket tehetett fel az előadás tartalmával kapcsolatban.
 
-A döntő során az elemzésem a megtisztelő **2. helyet** érte el.
+A döntő során az elemzésem a megtisztelő 🥈 **2. helyet** érte el.
 
 ### Elért eredmények:
 Az elemzés során feltártam: 
