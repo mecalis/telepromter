@@ -2,3 +2,9 @@
 
 Az adatelemző verseny a Dataklub (dataklub.hu) szervezésében jött létre.
 Az adatokat a Telepromter nevű, budapesti székhelyű IOS/Android alkalmazás ügyvezetője biztosította. A verseny során ~4 millió sororos felhasználói log alapján kellett minél jelentősebb üzleti értéket előállítani a Telepromter számára.
+
+A verseny kettő fordulóból állt:
+1. online forduló: a versenyzőknek 8 hetük volt az elemzésük elkészítésére. A szervezők kiválasztották a 10 legígéretesebb beadott pálamunkát, majd a Telepromter ügyvezetőjével közösen megnevezték a 3 döntős versenyzőt.
+2. forduló: a 3 döntősnek élő szóban kellett egy 12 perces prezentáci során előadniuk az elemzésüket egy 6 fős data science zsűri és közel 70 főnyi érdeklődő előtt, majd minden zsűri kérdéseket tehetett fel az előadás tartalmával kapcsolatban.
+
+A döntő során az elemzésem a megtisztelő 2. helyet érte el.
